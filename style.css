@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     background-image: url(https://demo.athemes.com/sydney-pro/wp-content/uploads/sites/76/slider2/pexels-photo-115655.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
 
 .image-container {
@@ -10,11 +13,12 @@ body {
     max-width: 600px;
 }
 .texto {
+    font-family: "Open Sans", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 500px;
+    margin-top: 300px;
     color: rgb(255, 255, 255);
 }
 button{
@@ -26,5 +30,7 @@ button{
     cursor: pointer;
 }
 button:hover {
-    background-color: rgb(245, 125, 125);
+    background-color: transparent;
+    border: 2px solid coral;
+    color: coral;
 }
