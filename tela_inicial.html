@@ -3,12 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SousaSport</title>
+    <style>
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar{
+        background-color: rgb(187, 20, 20);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-size: 100%;
+        height: 50px;
+        padding: 0px 100px;
+        color: aliceblue;
+        
+    }
+
+    .navbar > div {
+        display: flex;
+        gap: 20px;
+    }
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    a:hover{
+        transform: scale(2);
+        color: orange;
+    }
+    
+
+    </style>
 </head>
 <body>
     <div class="navbar">
-        <div><a href="login.html">Login</a></div>
-        <div><a href=""></a></div>
+        <h5>Seja bem Bem-vindo ao SousaSport</h5>
+        
+        <div>
+            <div class="navegacao"><a href="login.html">Login</a></div>
+            <div class="navegacao"><a href="tela_inicial.html">Home</a></div>
+        </div>
+        
     </div>
     
 </body>
