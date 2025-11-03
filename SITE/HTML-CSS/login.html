@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SousaSport</title>
+    <style>
+        button{
+            cursor: pointer;
+            background-color: rgba(87, 233, 233, 0.719);
+            border-radius: 20px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgba(67, 128, 128, 0.719);
+            border-radius: 20px;
+           
+        }
+        .container {
+             
+            display: flex;
+            flex-direction: column;
+            align-items:center ;
+            justify-content: center;
+            margin-top: 100px ;
+            border: 2px solid #fff;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            background-color: rgba(240, 240, 240, 0.3);
+            backdrop-filter: blur(10px);
+
+        }
+        h1{
+            color: aliceblue;
+
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(Black\ and\ Orange\ Modern\ Corporate\ Sales\ Report\ Presentation.jpg);
+        }
+        input{
+            border-radius: 200px;
+            margin: 1px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <input type="text" placeholder="usuario" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <input type="number" placeholder="Telefone" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')" >
+        <input type="password" id="initial-scale" placeholder="senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <input type="password" id="initial-scale" placeholder="Confirme sua senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <button><a href="tela_inicial.html">Entrar</a></button>
+        <a href="">Esqueceu a senha</a>
+    </div>
+
+</body>
+</html>
