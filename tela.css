@@ -38,4 +38,38 @@
         align-items: center;
         flex-direction: row;
         gap: 22px;
+        border: solid #000;
+    }
+
+     .Jomas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 22px;
+        margin-top: 20px;
+    
+    }
+    h1{
+        gap: 222px
+    }
+     .Munich{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 22px;
+        margin-top: 20px;
+    }
+     .Topper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 22px;
+        margin-top: 20px;
+    }
+    .tamanho{
+        height: 120px;
+        width: 120px;
     }
