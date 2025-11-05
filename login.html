@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SousaSport</title>
+    
+
     <style>
         button:hover{
             cursor: pointer;
@@ -48,13 +50,12 @@
 <body>
     <div class="container">
         <h1>Login</h1>
-        <input type="text" placeholder="usuario" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
-        <input type="number" placeholder="Telefone" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')" >
-        <input type="password" id="initial-scale" placeholder="senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
-        <input type="password" id="initial-scale" placeholder="Confirme sua senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
-        <button><a href="tela_inicial.html">Entrar</a></button>
+        <input type="text" id = "text" placeholder="usuario" oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <input type="password" id="password" placeholder="senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <input type="password" id="password2" placeholder="Confirme sua senha" required oninvalid="this.setCustomValidity('Por favor, preencha esse campo.')"  oninput="this.setCustomValidity('')">
+        <button><a id="button" href="tela_inicial.html">Entrar</a></button>
         <a href="">Esqueceu a senha</a>
     </div>
-
+<script src="Script/Script.js" defer></script> 
 </body>
 </html>
